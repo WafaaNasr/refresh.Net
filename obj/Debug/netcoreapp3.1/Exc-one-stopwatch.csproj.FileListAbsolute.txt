@@ -1,0 +1,12 @@
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/bin/Debug/netcoreapp3.1/Exc-one-stopwatch.deps.json
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/bin/Debug/netcoreapp3.1/Exc-one-stopwatch.runtimeconfig.json
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/bin/Debug/netcoreapp3.1/Exc-one-stopwatch.runtimeconfig.dev.json
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/bin/Debug/netcoreapp3.1/Exc-one-stopwatch.dll
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/bin/Debug/netcoreapp3.1/Exc-one-stopwatch.pdb
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/obj/Debug/netcoreapp3.1/Exc-one-stopwatch.csprojAssemblyReference.cache
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/obj/Debug/netcoreapp3.1/Exc-one-stopwatch.csproj.CoreCompileInputs.cache
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/obj/Debug/netcoreapp3.1/Exc-one-stopwatch.AssemblyInfoInputs.cache
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/obj/Debug/netcoreapp3.1/Exc-one-stopwatch.AssemblyInfo.cs
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/obj/Debug/netcoreapp3.1/Exc-one-stopwatch.dll
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/obj/Debug/netcoreapp3.1/Exc-one-stopwatch.pdb
+/Users/wafaa.nasr/Documents/Study/C#/Exc-one-stopwatch/obj/Debug/netcoreapp3.1/Exc-one-stopwatch.genruntimeconfig.cache

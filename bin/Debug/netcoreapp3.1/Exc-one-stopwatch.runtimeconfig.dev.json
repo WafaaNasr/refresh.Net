@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/wafaa.nasr/.dotnet/store/|arch|/|tfm|",
+      "/Users/wafaa.nasr/.nuget/packages"
+    ]
+  }
+}
