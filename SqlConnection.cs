@@ -7,14 +7,14 @@ namespace Exc_one_stopwatch
         public SqlConnection(string dbconnection)
         {
             if (string.IsNullOrEmpty(dbconnection))
-                throw new NullReferenceException("Connection string can not be null or empty");
+                throw new ArgumentNullException("Connection string can not be null or empty");
             ConnectionString = dbconnection;
 
         }
         public override void CloseConnection()
         {
-            if (!DbIsOpen) throw new Exception("Connection is already closed!");
-            System.Console.WriteLine("Connection is closed");
+            if (!DbIsOpen) throw new Exception("SQL Connection is already closed!");
+            System.Console.WriteLine("SQL Connection is closed");
             DbIsOpen = false;
         }
 
@@ -42,7 +42,7 @@ namespace Exc_one_stopwatch
                 elapsed++;
                 return false;
             }
-            System.Console.WriteLine("Connection is opened");
+            System.Console.WriteLine("SQL Connection is opened");
             return true;
         }
     }

@@ -7,8 +7,19 @@ namespace Exc_one_stopwatch
         static void Main(string[] args)
         {
             // TestStopwatch();
-            //  TestStackoverflowPost();
-            var sqlConn=new SqlConnection("Hello World!");
+            // TestStackoverflowPost();
+            // TestDBConnection();
+            var dBCommand = new DBCommand(
+                new SqlConnection("helllo world"),
+                "Instruction om 7amda"
+            );
+            var sqlCommand= dBCommand;
+            sqlCommand.Execute();
+        }
+
+        private static void TestDBConnection()
+        {
+            var sqlConn = new SqlConnection("Hello World!");
             sqlConn.OpenConnection();
             sqlConn.CloseConnection();
             sqlConn.CloseConnection();
