@@ -13,10 +13,9 @@ namespace Exc_one_stopwatch
                 new SqlConnection("helllo world"),
                 "Instruction om 7amda"
             );
-            var sqlCommand= dBCommand;
+            var sqlCommand = dBCommand;
             sqlCommand.Execute();
         }
-
         private static void TestDBConnection()
         {
             var sqlConn = new SqlConnection("Hello World!");
