@@ -1,4 +1,5 @@
 ﻿using System;
+using Exc_one_stopwatch.WFE;
 
 namespace Exc_one_stopwatch
 {
@@ -9,6 +10,18 @@ namespace Exc_one_stopwatch
             // TestStopwatch();
             // TestStackoverflowPost();
             // TestDBConnection();
+            //TestDbCommand();
+
+            var workFlow = new Workflow();
+            workFlow.AddActivity(new UploadActivity { Name = "Upload Activity", Value = "To upload a file/video" });
+            workFlow.AddActivity(new SendEmailActivity { Name = "Send Email Activity", Value = "To send an email after uploadingvideo" });
+            var workflowEngine = new WorkflowEngine();
+            workflowEngine.Run(workFlow);
+
+        }
+
+        private static void TestDbCommand()
+        {
             var dBCommand = new DBCommand(
                 new SqlConnection("helllo world"),
                 "Instruction om 7amda"
@@ -16,6 +29,7 @@ namespace Exc_one_stopwatch
             var sqlCommand = dBCommand;
             sqlCommand.Execute();
         }
+
         private static void TestDBConnection()
         {
             var sqlConn = new SqlConnection("Hello World!");
